@@ -1,0 +1,89 @@
+/*=============================
+ index html page css code 
+============================= */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: pristina;
+  src: url(../font/PRISTINA.TTF);
+}
+
+html {
+  font-family: roboto, sens-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.text-pristina {
+  font-family: pristina;
+}
+
+.theme-btn {
+  padding: 10px 25px;
+  background: #FF817E;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.theme-text {
+  color: #FF817E;
+}
+
+/* navbar area  */
+.navbar-area .top-color {
+  background-color: #c4977b;
+  border-bottom: 1px solid black;
+}
+
+.navbar-area .logo-text {
+  color: #6F5443;
+  border-bottom: 1px solid black;
+}
+
+.navbar-area .logo-text h1 {
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.navbar-area ul {
+  border-bottom: 1px solid black;
+}
+
+.navbar-area ul .nav-item {
+  list-style: none;
+}
+
+.navbar-area ul .nav-item .nav-link {
+  color: black;
+}
+
+/* home page header */
+#home-page-header .image-1 {
+  height: 400px;
+}
+
+#home-page-header .image-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+/* qouter section */
+#qoute-section .image-1 img {
+  width: 100px;
+}
+
+#qoute-section .image-2 img {
+  width: 150px;
+}
+
+#qoute-section .name-span {
+  font-size: 40px;
+}
+
+/*=============================
+ about.html page's css code 
+============================= */
+/*=============================
+ contact.html pages css code 
+============================= */
+/*# sourceMappingURL=style.css.map */
